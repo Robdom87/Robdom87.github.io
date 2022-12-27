@@ -755,6 +755,8 @@ input[type="radio"]+label:before {
 	border: 0;
 	display: inline-block;
 	position: relative;
+	max-height: 60vh;
+	overflow: hidden;
 }
 
 .image:before {
@@ -1857,4 +1859,9 @@ body.is-touch .project.thumb:before {
 
 body.is-touch .project.thumb:after {
 	display: none !important;
+}
+
+.more {
+	/* max-height: 50vh;
+	overflow: hidden; */
 }
