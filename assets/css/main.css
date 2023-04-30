@@ -269,10 +269,17 @@ i {
 }
 
 p {
-	margin: 0 0 2rem 0;
+	/* margin: 0 0 2rem 0; */
 }
 
-h1,
+h1 {
+	color: #ffffff;
+	font-weight: 600;
+	line-height: 1.5;
+	margin: 0 0 1rem 0;
+	/* text-transform: uppercase; */
+	letter-spacing: 0.2rem;
+}
 h2,
 h3,
 h4,
@@ -1258,9 +1265,10 @@ button {
 	-webkit-transition-delay: 0.75s;
 	-ms-transition-delay: 0.75s;
 	transition-delay: 0.75s;
-	background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
+	background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../brian-yurasits-eACN3A5vjjY-unsplash.jpg");
+	/* background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png"); */
 	background-size: auto,
-		256px 256px;
+		100vw 100vh;
 	background-position: center,
 		center;
 	background-repeat: no-repeat,
@@ -1398,7 +1406,7 @@ body.is-preload #bg:before {
 	left: calc(50% - 1px);
 	width: 1px;
 	height: calc(3.5rem + 1px);
-	background: #ffffff;
+	/* background: #ffffff; */
 }
 
 #header> :first-child {
@@ -1413,7 +1421,7 @@ body.is-preload #bg:before {
 	width: 5.5rem;
 	height: 5.5rem;
 	line-height: 5.5rem;
-	border: solid 1px #ffffff;
+	/* border: solid 1px #ffffff; */
 	border-radius: 100%;
 }
 
@@ -1422,8 +1430,8 @@ body.is-preload #bg:before {
 }
 
 #header .logo .icon {
-	width: 5.25rem;
-	height: 5.25rem;
+	width: 4.25rem;
+	height: 4.25rem;
 }
 
 
@@ -1454,7 +1462,7 @@ body.is-preload #bg:before {
 }
 
 #header .content p {
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	letter-spacing: 0.2rem;
 	font-size: 0.8rem;
 	line-height: 2;
